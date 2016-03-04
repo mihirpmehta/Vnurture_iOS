@@ -34,6 +34,7 @@
 }
 - (void) viewDidLayoutSubviews
 {
+    NSLog(@"HEllo from viewDidLayoutSubviews");
     [self makeViewsInRoundShape];
 }
 - (void) makeViewsInRoundShape
