@@ -30,8 +30,8 @@
 
 
 
-    NSLog(@"Gud mrng");
-    NSLog(@"Gud mrng");
+    NSLog(@"Gud mrng hello");
+    
 
 }
 
