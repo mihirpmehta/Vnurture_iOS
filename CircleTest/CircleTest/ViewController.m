@@ -25,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self makeViewsInRoundShape];
+    NSLog(@"Hello world");
 }
 
 - (void)didReceiveMemoryWarning {
