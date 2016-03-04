@@ -26,7 +26,11 @@
     [super viewDidLoad];
     [self makeViewsInRoundShape];
     NSLog(@"Hello world");
+<<<<<<< HEAD
 
+=======
+    NSLog(@"Gud mrng");
+>>>>>>> origin/master
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,6 +39,7 @@
 }
 - (void) viewDidLayoutSubviews
 {
+    NSLog(@"HEllo from viewDidLayoutSubviews");
     [self makeViewsInRoundShape];
 }
 - (void) makeViewsInRoundShape
