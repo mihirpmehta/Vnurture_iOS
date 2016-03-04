@@ -26,11 +26,7 @@
     [super viewDidLoad];
     [self makeViewsInRoundShape];
     NSLog(@"Hello world");
-<<<<<<< HEAD
-
-=======
     NSLog(@"Gud mrng");
->>>>>>> origin/master
 }
 
 - (void)didReceiveMemoryWarning {
