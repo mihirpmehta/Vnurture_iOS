@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04289AC51C8946590018FBE1 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04289AC41C8946590018FBE1 /* SampleViewController.m */; };
+		04289AC61C8946590018FBE1 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04289AC41C8946590018FBE1 /* SampleViewController.m */; };
 		366C6AC91B5807630073F3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 366C6AC81B5807630073F3CA /* main.m */; };
 		366C6ACC1B5807630073F3CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366C6ACB1B5807630073F3CA /* AppDelegate.m */; };
 		366C6ACF1B5807630073F3CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366C6ACE1B5807630073F3CA /* ViewController.m */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04289AC31C8946590018FBE1 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		04289AC41C8946590018FBE1 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		366C6AC31B5807630073F3CA /* CircleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		366C6AC71B5807630073F3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		366C6AC81B5807630073F3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				366C6ACB1B5807630073F3CA /* AppDelegate.m */,
 				366C6ACD1B5807630073F3CA /* ViewController.h */,
 				366C6ACE1B5807630073F3CA /* ViewController.m */,
+				04289AC31C8946590018FBE1 /* SampleViewController.h */,
+				04289AC41C8946590018FBE1 /* SampleViewController.m */,
 				366C6AD01B5807630073F3CA /* Main.storyboard */,
 				366C6AD31B5807630073F3CA /* Images.xcassets */,
 				366C6AD51B5807630073F3CA /* LaunchScreen.xib */,
@@ -221,6 +227,7 @@
 			files = (
 				366C6ACF1B5807630073F3CA /* ViewController.m in Sources */,
 				366C6ACC1B5807630073F3CA /* AppDelegate.m in Sources */,
+				04289AC51C8946590018FBE1 /* SampleViewController.m in Sources */,
 				366C6AC91B5807630073F3CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04289AC61C8946590018FBE1 /* SampleViewController.m in Sources */,
 				366C6AE31B5807630073F3CA /* CircleTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +426,7 @@
 				366C6AE81B5807630073F3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		366C6AE91B5807630073F3CA /* Build configuration list for PBXNativeTarget "CircleTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				366C6AEB1B5807630073F3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
