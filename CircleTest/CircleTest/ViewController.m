@@ -26,6 +26,7 @@
     [super viewDidLoad];
     [self makeViewsInRoundShape];
     NSLog(@"Hello world");
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,6 +39,7 @@
 }
 - (void) makeViewsInRoundShape
 {
+    NSLog(@"inside the makeViewInRoundShape method");
     self.yellowView.layer.cornerRadius = self.yellowView.frame.size.width/2;
     self.redView.layer.cornerRadius = self.redView.frame.size.width/2;
     self.greenView.layer.cornerRadius = self.greenView.frame.size.width/2;
